@@ -15,7 +15,7 @@ function Controller(gateway) {
 	var self = this;
 	this.gateway = gateway;
 	this.nodes = [];
-	this.debug = false;
+	this.debug = true; // was false
 
 	this._saveNeeded = false;
 
@@ -35,7 +35,9 @@ function Controller(gateway) {
 
 	setInterval(this._persist.bind(this), 5000);
 
+	//gateway.pipe(split()).on("data", this._handleIncomingLine.bind(this));
 	gateway.pipe(split()).on("data", this._handleIncomingLine.bind(this));
+	//const lineStream = gateway.pipe(new Readline())
 }
 util.inherits(Controller, EE);
 
