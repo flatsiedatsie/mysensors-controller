@@ -1,22 +1,50 @@
 {
-  "name": "mysensors-controller",
-  "version": "1.2.0",
+  "_from": "mysensors-controller",
+  "_id": "mysensors-controller@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Ewuqb9f2byzAkolvpV2jD3+I0VI=",
+  "_location": "/mysensors-controller",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mysensors-controller",
+    "name": "mysensors-controller",
+    "escapedName": "mysensors-controller",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mysensors-controller/-/mysensors-controller-1.2.0.tgz",
+  "_shasum": "130baa6fd7f66f2cc092896fa55da30f7f88d152",
+  "_spec": "mysensors-controller",
+  "_where": "/home/pi/.mozilla-iot/addons/candle-adapter",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rakeshpai/mysensors-controller/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fn-helpers": "0.0.3",
+    "serialport": "^7.1.4",
+    "split": "^1.0.1"
+  },
+  "deprecated": false,
   "description": "A partial implementation of the MySensors protocol",
-  "main": "index.js",
   "homepage": "https://github.com/rakeshpai/mysensors-controller",
-  "bugs": "https://github.com/rakeshpai/mysensors-controller/issues",
   "keywords": [
     "mysensors",
     "iot"
   ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "mysensors-controller",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "fn-helpers": "0.0.3",
-    "serialport": "^2.0.6",
-    "split": "^1.0.0"
-  }
+  "version": "1.2.0"
 }
